@@ -24,7 +24,7 @@ Example
 For the following table **Suspect**
 
 | id | name | surname | height | weight |
-|---|---|---|---|
+|---|---|---|---|---|
 | 1 | John | Doe | 165 | 60 |
 | 2 | Bill | Green | 170 | 67 |
 | 3 | Baelfire | Grehn | 172 | 70 |
