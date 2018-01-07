@@ -1,0 +1,7 @@
+/*Please add ; after each select statement*/
+CREATE PROCEDURE mostExpensive()
+BEGIN
+    SELECT name FROM (SELECT name, (price*quantity) AS cost FROM Products
+        ORDER BY cost DESC, name) t
+    LIMIT 1;
+END
