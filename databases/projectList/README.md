@@ -23,6 +23,7 @@ For the following table Projects
 | 5961 | Snapchat | 3 | Evan Spiegel | 2000 |
 
 the resulting table should be
+
 | project_name | team_lead | income |
 |---|---|---|
 | MapReduce | Jeffrey Dean | 0 |
