@@ -1,0 +1,7 @@
+/*Please add ; after each select statement*/
+CREATE PROCEDURE securityBreach()
+BEGIN
+	SELECT * FROM users
+    WHERE attribute
+    LIKE CONCAT("_%\%", BINARY users.first_name, "\_", BINARY users.second_name, "\%%");
+END
