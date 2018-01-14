@@ -1,6 +1,6 @@
 ## securityBreach
 
-**Note: the BINARY statement compares search terms on a byte-by-byte basis**
+**Note to self: the BINARY statement compares search terms on a byte-by-byte basis**
 
 You are managing a large website that uses a special algorithm for user identification. In particular, it generates a unique attribute for each person based only on their first and last names and some additional metadata.
 
